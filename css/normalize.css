@@ -41,31 +41,6 @@ section {
   display: block;
 }
 
-/**
- * Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Firefox, and Safari.
- */
-
-h1.name-title {
-  font-family: 'Gentium Book Basic', serif;
-  font-size: 4em;
-  font-size: calc(16px + 4vw);
-  text-align: center;
-  margin: 1% 25% 0;
-}
-
-h2.section-title {
-  font-family: 'Gentium Book Basic', serif;
-  font-size: 2em;
-  font-size: calc(16px + 2vw);
-  text-align: left;
-  margin: 5px 5%;
-}
-
-br {
-    margin: 5px 0;
-}
-
 /* Grouping content
    ========================================================================== */
 
@@ -98,189 +73,6 @@ hr {
   overflow: visible; /* 2 */
 }
 
-.title-rule {
-    text-align: center;
-    margin: 0 20%;
-    padding: 0px;
-}
-
-.section-rule {
-    text-align: center;
-    margin: 0 5%;
-    padding: 0px;
-}
-
-hr.style-one {
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-}
-
-hr.style-two {
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
-}
-
-blockquote {
-    font-family: 'Gentium Book Basic', serif;
-    font-size: calc(16px + 1.5vw);
-    text-align: center;
-    quotes: "\201C""\201D""\2018""\2019";
-}
-
-blockquote:before {
-    color: #999;
-    content: open-quote;
-    font-size: calc(16px + 1.5vw);
-    line-height: 0.1em;
-    margin-right: 0.2%;
-}
-
-blockquote:after {
-    color: #999;
-    content: close-quote;
-    font-size: calc(16px + 1.5vw);
-    line-height: 0.1em;
-    margin-right: 0.2%;
-}
-
-blockquote p {
-    display: inline;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.menu {
-    margin: 2% 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.social {
-    margin: 3% 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.top {
-    margin: 1% 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.projects {
-    margin: 5px 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-div.transbox {
-    font-family: 'Gentium Book Basic', serif;
-    font-size: 2em;
-    font-size: calc(16px + 0.5vw);
-    margin: 5px;
-    padding: 20px;
-    border: 3px solid black;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 320px;
-    height: 320px;
-}
-
-button.transbutton {
-    font-family: 'Gentium Book Basic', serif;
-    font-size: 1.5em;
-    font-size: calc(16px + 0.1vw);
-    margin: 75px 75px 25px;
-    padding: 10px;
-    border: 2px solid black;
-    background-color: #fff;
-    text-align: center;
-}
-
-.section-subtitle {
-    font-family: 'Gentium Book Basic', serif;
-    font-size: 1.5em;
-    font-size: calc(16px + 0.5vw);
-    margin: 0 5%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.flex-item {
-    margin: 0.01px 5px;
-}
-
-i.fa.fa-paper-plane {
-    font-size: 0.1em;
-    font-size: calc(8px + 1vw);
-}
-
-i.fa.fa-heart {
-    font-size: 0.1em;
-    font-size: calc(8px + 1vw);
-}
-
-i.fa.fa-circle {
-    font-size: 0.05em;
-    font-size: calc(2px + 0.2vw);
-}
-
-i.fa.fa-github {
-    font-size: 1em;
-    font-size: calc(8px + 1vw);
-}
-
-i.fa.fa-linkedin-square {
-    font-size: 1em;
-    font-size: calc(8px + 1vw);
-}
-
-i.fa.fa-quora {
-    font-size: 1em;
-    font-size: calc(8px + 1vw);
-}
-
-i.fa.fa-bitbucket {
-    font-size: 1em;
-    font-size: calc(8px + 1vw);
-}
-
-i.fa.fa-google-plus {
-    font-size: 1em;
-    font-size: calc(8px + 1vw);
-}
-
-i.fa.fa-twitter {
-    font-size: 1em;
-    font-size: calc(8px + 1vw);
-}
-
-i.fa.fa-slack {
-    font-size: 1em;
-    font-size: calc(8px + 1vw);
-}
-
-p {
-    margin-left: 10px;
-    margin-right: 10px;
-    text-align: justify;
-    text-justify: inter-word;
-    font-family: 'Gentium Book Basic', serif;
-    font-size: calc(16px + 0.5vw);
-}
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
@@ -753,4 +545,214 @@ template {
 
 [hidden] {
   display: none;
+}
+
+/**
+ * Adding new css here onwards.
+ */
+
+.google-font-1 {
+  font-family: 'Gentium Book Basic', serif;
+}
+
+.name-title {
+  font-size: 4em;
+  font-size: calc(16px + 4vw);
+  text-align: center;
+  margin: 1% 25% 0;
+}
+
+.section-title {
+  font-size: 2em;
+  font-size: calc(16px + 2vw);
+  text-align: left;
+  margin: 5px 5%;
+}
+
+.title-rule {
+    text-align: center;
+    margin: 0 20%;
+    padding: 0px;
+}
+
+.section-rule {
+    text-align: center;
+    margin: 0 5%;
+    padding: 0px;
+}
+
+.style-one {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.menu {
+    margin: 2% 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.social {
+    margin: 3% 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.top {
+    margin: 1% 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.projects {
+    margin: 5px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.transbox {
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 2em;
+    font-size: calc(16px + 0.5vw);
+    margin: 5px;
+    padding: 20px;
+    border: 3px solid black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 320px;
+    height: 320px;
+}
+
+.transbutton {
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 1.5em;
+    font-size: calc(16px + 0.1vw);
+    margin: 75px 75px 25px;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: #fff;
+    text-align: center;
+}
+
+.section-subtitle {
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 1.5em;
+    font-size: calc(16px + 0.5vw);
+    margin: 0 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.flex-item {
+    margin: 0.01px 5px;
+}
+
+.fa.fa-paper-plane {
+    font-size: 0.1em;
+    font-size: calc(8px + 1vw);
+}
+
+.fa.fa-heart {
+    font-size: 0.1em;
+    font-size: calc(8px + 1vw);
+}
+
+.fa.fa-circle {
+    font-size: 0.05em;
+    font-size: calc(2px + 0.2vw);
+}
+
+.fa.fa-github {
+    font-size: 1em;
+    font-size: calc(8px + 1vw);
+}
+
+.fa.fa-linkedin-square {
+    font-size: 1em;
+    font-size: calc(8px + 1vw);
+}
+
+.fa.fa-quora {
+    font-size: 1em;
+    font-size: calc(8px + 1vw);
+}
+
+.fa.fa-bitbucket {
+    font-size: 1em;
+    font-size: calc(8px + 1vw);
+}
+
+.fa.fa-google-plus {
+    font-size: 1em;
+    font-size: calc(8px + 1vw);
+}
+
+.fa.fa-twitter {
+    font-size: 1em;
+    font-size: calc(8px + 1vw);
+}
+
+.fa.fa-slack {
+    font-size: 1em;
+    font-size: calc(8px + 1vw);
+}
+
+br {
+    margin: 5px 0;
+}
+
+blockquote {
+    font-family: 'Gentium Book Basic', serif;
+    font-size: calc(16px + 1.5vw);
+    text-align: center;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote:before {
+    color: #999;
+    content: open-quote;
+    font-size: calc(16px + 1.5vw);
+    line-height: 0.1em;
+    margin-right: 0.2%;
+}
+
+blockquote:after {
+    color: #999;
+    content: close-quote;
+    font-size: calc(16px + 1.5vw);
+    line-height: 0.1em;
+    margin-right: 0.2%;
+}
+
+blockquote p {
+    display: inline;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
+    text-justify: inter-word;
+    font-family: 'Gentium Book Basic', serif;
+    font-size: calc(16px + 0.5vw);
 }
