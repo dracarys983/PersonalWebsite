@@ -36,27 +36,28 @@
         </ul>
 
         <!-- Title and quote -->
-        <h1 class="name-title google-fonts-1"> {{page.title}} </h1>
-        <p class="meta google-fonts-1" style="text-align: center">{{ page.date | date_to_string }}</p>
+        <h1 class="name-title"> {{page.title}} </h1>
+        <p class="meta" style="text-align: center">{{ page.date | date_to_string }}</p>
         <hr class="style-two title-rule" />
-        <div class="post google-fonts-1">
-            {{ content }}
-        </div>
-
+        
         <!-- Sections -->
         <ul class="menu">
-            <li><a class="simple-link google-fonts-1" href="about"> About </a></li>
-            <li><a class="simple-link google-fonts-1"> | </a></li>
-            <li><a class="simple-link google-fonts-1" href="experience"> Experience </a></li>
-            <li><a class="simple-link google-fonts-1"> | </a></li>
-            <li><a class="simple-link google-fonts-1" href="projects"> Projects </a></li>
-            <li><a class="simple-link google-fonts-1"> | </a></li>
-            <li><a class="simple-link google-fonts-1" href="skills_interests"> Skills and Interests </a></li>
-            <li><a class="simple-link google-fonts-1"> | </a></li>
-            <li><a class="simple-link google-fonts-1" href="resume"> Resume </a></li>
-            <li><a class="simple-link google-fonts-1"> | </a></li>
-            <li><a class="simple-link google-fonts-1" href="blog"> Blog </a></li>
+            <li><a class="simple-link" href="about"> About </a></li>
+            <li><a class="simple-link"> | </a></li>
+            <li><a class="simple-link" href="experience"> Experience </a></li>
+            <li><a class="simple-link"> | </a></li>
+            <li><a class="simple-link" href="projects"> Projects </a></li>
+            <li><a class="simple-link"> | </a></li>
+            <li><a class="simple-link" href="skills_interests"> Skills and Interests </a></li>
+            <li><a class="simple-link"> | </a></li>
+            <li><a class="simple-link" href="resume"> Resume </a></li>
+            <li><a class="simple-link"> | </a></li>
+            <li><a class="simple-link" href="blog"> Blog </a></li>
         </ul>
+
+        <div class="post">
+            {{ content }}
+        </div>
 
         <!-- Social menu -->
         <ul class="social">

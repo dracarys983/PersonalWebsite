@@ -482,6 +482,7 @@ template {
 }
 
 .section-title {
+  font-family: 'Gentium Book Basic', serif;
   font-size: 2em;
   font-size: calc(16px + 2vw);
   text-align: left;
@@ -541,6 +542,7 @@ template {
 }
 
 .transbox {
+    font-family: 'Gentium Book Basic', serif;
     font-size: 2em;
     font-size: calc(16px + 0.5vw);
     margin: 5px;
@@ -555,9 +557,16 @@ template {
 }
 
 .post {
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 2em;
+    font-size: calc(16px + 0.5vw);
+    margin: 5px 5%;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 .transbutton {
+    font-family: 'Gentium Book Basic', serif;
     font-size: 1.5em;
     font-size: calc(16px + 0.1vw);
     margin: 75px 75px 25px;
@@ -568,6 +577,7 @@ template {
 }
 
 .section-subtitle {
+    font-family: 'Gentium Book Basic', serif;
     font-size: 1.5em;
     font-size: calc(16px + 0.5vw);
     margin: 0 5%;
@@ -635,6 +645,7 @@ br {
 }
 
 blockquote {
+    font-family: 'Gentium Book Basic', serif;
     font-size: calc(16px + 1.5vw);
     text-align: center;
     quotes: "\201C""\201D""\2018""\2019";
@@ -667,6 +678,7 @@ ul {
 }
 
 p {
+    font-family: 'Gentium Book Basic', serif;
     margin-left: 10px;
     margin-right: 10px;
     text-align: justify;
@@ -675,6 +687,7 @@ p {
 }
 
 a.simple-link {
+    font-family: 'Gentium Book Basic', serif;
     font-size: 1.5em;
     font-size: calc(16px + 1vw);
 }
@@ -700,6 +713,7 @@ a.simple-link:active {
 }
 
 a.initials-link {
+    font-family: 'Pacifico', cursive;
     font-size: 1.5em;
     font-size: calc(16px + 1.5vw);
 }
