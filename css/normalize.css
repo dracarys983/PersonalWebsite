@@ -97,92 +97,6 @@ a {
   -webkit-text-decoration-skip: objects; /* 2 */
 }
 
-a.simple-link {
-    font-family: 'Gentium Book Basic', serif;
-    font-size: 1.5em;
-    font-size: calc(16px + 1vw);
-}
-
-a.simple-link:link {
-    color: #999;
-    text-decoration: none;
-}
-
-a.simple-link:visited {
-    color: blue;
-    text-decoration: none;
-}
-
-a.simple-link:hover {
-    color: #000;
-    text-decoration: none;
-}
-
-a.simple-link:active {
-    color: red;
-    text-decoration: none;
-}
-
-a.initials-link {
-    font-family: 'Pacifico', cursive;
-    font-size: 1.5em;
-    font-size: calc(16px + 1.5vw);
-}
-
-a.initials-link:link {
-    color: #999;
-    text-decoration: none;
-}
-
-a.initials-link:visited {
-    color: #999;
-    text-decoration: none;
-}
-
-a.initials-link:hover {
-    color: #000;
-    text-decoration: none;
-}
-
-a.initials-link:active {
-    color: #999;
-    text-decoration: none;
-}
-
-a.icon-link {
-    -webkit-transition: all 200ms ease-in;
-    -webkit-transform: scale(1); 
-    -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1); 
-    -moz-transition: all 200ms ease-in;
-    -moz-transform: scale(1);
-    transition: all 200ms ease-in;
-    transform: scale(1);
-}
-
-a.icon-link:link {
-    color: #000;
-}
-
-a.icon-link:visited {
-    color: #000;
-}
-
-a.icon-link:hover {
-    z-index: 2;
-    -webkit-transition: all 200ms ease-in;
-    -webkit-transform: scale(1.5);
-    -ms-transition: all 200ms ease-in;
-    -ms-transform: scale(1.5);   
-    -moz-transition: all 200ms ease-in;
-    -moz-transform: scale(1.5);
-    transition: all 200ms ease-in;
-    transform: scale(1.5);
-}
-
-a.icon-link:active {
-    color: #000;
-}
 
 /**
  * Remove the outline on focused links when they are also active or hovered
@@ -551,11 +465,16 @@ template {
  * Adding new css here onwards.
  */
 
-.google-font-1 {
+.google-fonts-1 {
   font-family: 'Gentium Book Basic', serif;
 }
 
+.google-fonts-2 {
+    font-family: 'Pacifico', cursive;
+}
+
 .name-title {
+  font-family: 'Gentium Book Basic', serif;
   font-size: 4em;
   font-size: calc(16px + 4vw);
   text-align: center;
@@ -622,7 +541,6 @@ template {
 }
 
 .transbox {
-    font-family: 'Gentium Book Basic', serif;
     font-size: 2em;
     font-size: calc(16px + 0.5vw);
     margin: 5px;
@@ -636,8 +554,10 @@ template {
     height: 320px;
 }
 
+.post {
+}
+
 .transbutton {
-    font-family: 'Gentium Book Basic', serif;
     font-size: 1.5em;
     font-size: calc(16px + 0.1vw);
     margin: 75px 75px 25px;
@@ -648,7 +568,6 @@ template {
 }
 
 .section-subtitle {
-    font-family: 'Gentium Book Basic', serif;
     font-size: 1.5em;
     font-size: calc(16px + 0.5vw);
     margin: 0 5%;
@@ -716,7 +635,6 @@ br {
 }
 
 blockquote {
-    font-family: 'Gentium Book Basic', serif;
     font-size: calc(16px + 1.5vw);
     text-align: center;
     quotes: "\201C""\201D""\2018""\2019";
@@ -753,6 +671,90 @@ p {
     margin-right: 10px;
     text-align: justify;
     text-justify: inter-word;
-    font-family: 'Gentium Book Basic', serif;
     font-size: calc(16px + 0.5vw);
+}
+
+a.simple-link {
+    font-size: 1.5em;
+    font-size: calc(16px + 1vw);
+}
+
+a.simple-link:link {
+    color: #999;
+    text-decoration: none;
+}
+
+a.simple-link:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+a.simple-link:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+a.simple-link:active {
+    color: red;
+    text-decoration: none;
+}
+
+a.initials-link {
+    font-size: 1.5em;
+    font-size: calc(16px + 1.5vw);
+}
+
+a.initials-link:link {
+    color: #999;
+    text-decoration: none;
+}
+
+a.initials-link:visited {
+    color: #999;
+    text-decoration: none;
+}
+
+a.initials-link:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+a.initials-link:active {
+    color: #999;
+    text-decoration: none;
+}
+
+a.icon-link {
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+}
+
+a.icon-link:link {
+    color: #000;
+}
+
+a.icon-link:visited {
+    color: #000;
+}
+
+a.icon-link:hover {
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+}
+
+a.icon-link:active {
+    color: #000;
 }
