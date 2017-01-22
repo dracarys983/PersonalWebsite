@@ -587,7 +587,7 @@ template {
 }
 
 .flex-item {
-    margin: 1px 20px;
+    margin: 0.01px 5px;
 }
 
 .fa.fa-paper-plane {
@@ -753,6 +753,7 @@ a.icon-link {
     padding: 20px;
     text-align: center;
     vertical-align: middle;
+    margin: 0 10px;
     -webkit-transition: all 200ms ease-in;
     -webkit-transform: scale(1); 
     -ms-transition: all 200ms ease-in;
