@@ -3,3 +3,9 @@ layout: default
 title: Blog
 quote: The best way to remember something is to write it down
 ---
+
+<ul class="blog-posts">
+    {% for post in site.posts %}
+        <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
