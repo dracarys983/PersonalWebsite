@@ -754,6 +754,9 @@ a.icon-link {
     -moz-transform: scale(1);
     transition: all 200ms ease-in;
     transform: scale(1);
+    border: 1px;
+    border-radius: 25%;
+    display: block;
 }
 
 a.icon-link:link {
