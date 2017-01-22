@@ -746,6 +746,11 @@ a.initials-link:active {
 }
 
 a.icon-link {
+    border: 1px solid black;
+    border-radius: 100%;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
     -webkit-transition: all 200ms ease-in;
     -webkit-transform: scale(1); 
     -ms-transition: all 200ms ease-in;
@@ -754,9 +759,6 @@ a.icon-link {
     -moz-transform: scale(1);
     transition: all 200ms ease-in;
     transform: scale(1);
-    border: 1px;
-    border-radius: 25%;
-    display: block;
 }
 
 a.icon-link:link {
