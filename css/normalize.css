@@ -647,6 +647,16 @@ template {
     margin: 5px 5%;
 }
 
+.custom-icon {
+    display: table-cell;
+    border: 3px solid #999;
+    box-shadow: 0 1px 10px #666;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
 br {
     margin: 5px 0;
 }
@@ -747,12 +757,6 @@ a.initials-link:active {
 
 a.icon-link {
     display: inline-block;
-    border: 3px solid #999;
-    box-shadow: 0 1px 10px #666;
-    border-radius: 10px;
-    padding: 20px;
-    text-align: center;
-    vertical-align: middle;
     margin: 0 10px;
     -webkit-transition: all 200ms ease-in;
     -webkit-transform: scale(1); 
