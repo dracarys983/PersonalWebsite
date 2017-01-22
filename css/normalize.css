@@ -746,6 +746,7 @@ a.initials-link:active {
 }
 
 a.icon-link {
+    display: inline-block;
     border: 1px solid black;
     border-radius: 100%;
     text-align: center;
