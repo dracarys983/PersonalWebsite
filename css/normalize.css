@@ -747,8 +747,9 @@ a.initials-link:active {
 
 a.icon-link {
     display: inline-block;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 100%;
+    padding: 30px;
     text-align: center;
     vertical-align: middle;
     -webkit-transition: all 200ms ease-in;
