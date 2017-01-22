@@ -1,36 +1,120 @@
----
-layout: default
-title: {{page.title}}
-quote: {{page.quote}}
----
-<p class="meta" style="text-align: center">{{ page.date | date_to_string }}</p>
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title> Kalpit Thakkar </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<div class="post">
-    {{ content }}
-</div>
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
 
-<div style="margin: 5px 5%" id="disqus_thread"></div>
-<script type="text/javascript">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Gentium+Book+Basic|Pacifico" rel="stylesheet">
 
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-    var disqus_shortname = 'dracarys983';
-    var disqus_identifier = "{{ page.url }}";
-    var disqus_developer = 1;
-    
+        <link rel="stylesheet" href="/css/normalize.css">
+        <link rel="stylesheet" href="/css/main.css">
 
-/*
-   var disqus_config = function () {
-   this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-   this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-   };
-   */
-(function() { // DON'T EDIT BELOW THIS LINE
-    var d = document, s = d.createElement('script');
-    s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-    s.setAttribute('data-timestamp', +new Date());
-    (d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        
+        <!-- Profile picture
+        <img class="profile" src="img/profile.jpg"> </img -->
+
+        <!-- Top panel -->
+        <ul class="top">
+            <a class="icon-link" href="mailto:kalpit.thakkar@research.iiit.ac.in"><li><i class="fa fa-paper-plane custom-icon" aria-hidden="true"></i></li></a>
+            <li><a class="initials-link" href="https://dracarys983.github.io"> KT </a></li>
+            <a class="icon-link" href="#"><li><i class="fa fa-heart custom-icon" aria-hidden="true"></i></li></a>
+        </ul>
+
+        <!-- Title and quote -->
+        <h2 class="section-title"> {{page.title}} </h1>
+        <p class="meta" style="text-align: center">Published {{ page.date | date_to_string }} <i class="fa fa-circle" aria-hidden="true"></i> {{ page.tags }} <i class="fa fa-circle" aria-hidden="true"></i> Last Updated {{ page.updated | date_to_string }}</p>
+        <hr class="style-two title-rule" />
+
+        <!-- Sections -->
+        <ul class="menu">
+            <li><a class="simple-link" href="https://dracarys983.github.io/about"> About </a></li>
+            <li><a class="simple-link"> | </a></li>
+            <li><a class="simple-link" href="https://dracarys983.github.io/experience"> Experience </a></li>
+            <li><a class="simple-link"> | </a></li>
+            <li><a class="simple-link" href="https://dracarys983.github.io/projects"> Projects </a></li>
+            <li><a class="simple-link"> | </a></li>
+            <li><a class="simple-link" href="https://dracarys983.github.io/skills_interests"> Skills and Interests </a></li>
+            <li><a class="simple-link"> | </a></li>
+            <li><a class="simple-link" href="https://dracarys983.github.io/resume"> Resume </a></li>
+            <li><a class="simple-link"> | </a></li>
+            <li><a class="simple-link" href="https://dracarys983.github.io/blog"> Blog </a></li>
+        </ul>
+
+        <div class="post">
+            {{ content }}
+        </div>
+
+        <div style="margin: 5px 5%" id="disqus_thread"></div>
+        <script type="text/javascript">
+
+        /**
+        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+            var disqus_shortname = 'dracarys983';
+            var disqus_identifier = "{{ page.url }}";
+            var disqus_developer = 1;
+            
+
+        /*
+           var disqus_config = function () {
+           this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+           this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+           };
+           */
+        (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript> 
+
+        <!-- Social menu -->
+        <ul class="social">
+            <a class="icon-link" href="https://github.com/dracarys983"><li><i class="fa fa-github custom-icon" aria-hidden="true"></i></li></a>
+            <!-- li class="flex-item"><i class="fa fa-circle" aria-hidden="true"></i></li -->
+            <a class="icon-link" href="https://in.linkedin.com/in/dracarys983"><li><i class="fa fa-linkedin-square custom-icon" aria-hidden="true"></i></li></a>
+            <!-- li class="flex-item"><i class="fa fa-circle" aria-hidden="true"></i></li -->
+            <a class="icon-link" href="https://www.quora.com/profile/Kalpit-Thakkar-1"><li><i class="fa fa-quora custom-icon" aria-hidden="true"></i></li></a>
+            <!-- li class="flex-item"><i class="fa fa-circle" aria-hidden="true"></i></li -->
+            <a class="icon-link" href="https://plus.google.com/107689294818131557794"><li><i class="fa fa-google-plus custom-icon" aria-hidden="true"></i></li></a>
+        </ul>
+
+        <!-- Copyright and Credits -->
+        <ul class="social">
+            <li class="flex-item google-fonts-1" style="font-size: calc(16px + 0.1vw)"> Credits: </li>
+            <li class="flex-item google-fonts-1" style="font-size: calc(16px + 0.1vw)"> Kalpit Thakkar </li>
+            <li class="flex-item google-fonts-1"><a class="simple-link" style="font-size: calc(16px + 0.1vw)" href="http://fontawesome.io/">Font Awesome</a></li>
+            <li class="flex-item google-fonts-1"><a class="simple-link" style="font-size: calc(16px + 0.1vw)" href="https://css-tricks.com/">CSS Tricks</a></li>
+        </ul>
+        <p style="font-size: calc(16px + 0.1vw); text-align: right"><i class="fa fa-copyright" aria-hidden="true"></i> 2016. By Kalpit Thakkar </p>
+
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.1.1.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+        <script>
+            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+            ga('create','UA-90530035-1','auto');ga('send','pageview')
+        </script>
+        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+    </body>
+</html>
