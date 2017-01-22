@@ -769,10 +769,12 @@ a.icon-link {
 
 a.icon-link:link {
     color: #000;
+    text-decoration: none;
 }
 
 a.icon-link:visited {
     color: #000;
+    text-decoration: none;
 }
 
 a.icon-link:hover {
@@ -785,8 +787,10 @@ a.icon-link:hover {
     -moz-transform: scale(1.5);
     transition: all 200ms ease-in;
     transform: scale(1.5);
+    text-decoration: none;
 }
 
 a.icon-link:active {
     color: #000;
+    text-decoration: none;
 }
