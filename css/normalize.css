@@ -753,7 +753,7 @@ a.icon-link {
     padding: 20px;
     text-align: center;
     vertical-align: middle;
-    margin: 0 10px;
+    margin: 5px;
     -webkit-transition: all 200ms ease-in;
     -webkit-transform: scale(1); 
     -ms-transition: all 200ms ease-in;
