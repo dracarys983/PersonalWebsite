@@ -640,6 +640,13 @@ template {
     font-size: calc(8px + 1vw);
 }
 
+.blog-posts {
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 1.5em;
+    font-size: calc(16px + 0.5vw);
+    margin: 5px 5%;
+}
+
 br {
     margin: 5px 0;
 }
