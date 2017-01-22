@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Trying Jekyll with this first blog post"
+quote: "It is now or never"
 date: 2016-01-21
 ---
 
