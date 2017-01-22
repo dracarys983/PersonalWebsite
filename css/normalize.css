@@ -651,7 +651,7 @@ template {
     display: table-cell;
     border: 3px solid #999;
     box-shadow: 0 1px 10px #666;
-    border-radius: 10px;
+    border-radius: 100%;
     padding: 20px;
     text-align: center;
     vertical-align: middle;
@@ -756,7 +756,6 @@ a.initials-link:active {
 }
 
 a.icon-link {
-    display: inline-block;
     margin: 0 10px;
     -webkit-transition: all 200ms ease-in;
     -webkit-transform: scale(1); 
