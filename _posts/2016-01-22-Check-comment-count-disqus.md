@@ -2,7 +2,7 @@
 layout: post
 title: "Another post just to check disqus comment count"
 date: 2016-01-22
-tags: Disqus, comments, integration
+tags: "Disqus, comments, integration"
 updated: 2016-01-22
 ---
 
