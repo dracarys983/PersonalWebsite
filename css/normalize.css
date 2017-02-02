@@ -671,11 +671,17 @@ a.button:active {
     border: 2px solid #999;
     box-shadow: 0 1px 10px #666;
     border-radius: 50%;
-    height: 25px;
-    width: 25px;
+    height: calc(15px + 0.5vw);
+    width: calc(15px + 0.5vw);
     padding: 20px;
     text-align: center;
     vertical-align: middle;
+}
+
+.email:before {
+    content: attr(data-website) "\0040" attr(data-user);
+    unicode-bidi: bidi-override;
+    direction: rtl;
 }
 
 br {
