@@ -18,7 +18,7 @@
 
         <script src="../js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
-    <body>
+    <body class="google-fonts-1">
         <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
@@ -31,53 +31,52 @@
         <!-- Top panel -->
         <ul class="top">
             <a class="icon-link" href="mailto:kalpitDOTthakkarATresearchDOTiiitDOTacDOTin"
-                onclick="this.href=this.href.replace(/AT/, '&#64;').replace(/DOT/, '&#46;').replace(/DOT/, '&#46;').replace(/DOT/, '&#46;').replace(/DOT/, '&#46;')"><li><i class="fa fa-paper-plane custom-icon" aria-hidden="true"></i></li></a>
-            <li><a class="initials-link" href=".."> KT </a></li>
-            <a class="icon-link" href="#"><li><i class="fa fa-heart custom-icon" aria-hidden="true"></i></li></a>
+                onclick="this.href=this.href.replace(/AT/, '&#64;').replace(/DOT/, '&#46;').replace(/DOT/, '&#46;').replace(/DOT/, '&#46;').replace(/DOT/, '&#46;')"><li><i class="fa fa-paper-plane icon" aria-hidden="true"></i></li></a>
+            <li><a class="initials google-fonts-2" href=".."> KT </a></li>
+            <a class="icon-link" href="#"><li><i class="fa fa-heart icon" aria-hidden="true"></i></li></a>
         </ul>
 
         <!-- Title and quote -->
-        <h1 class="name-title"> {{page.title}} </h1>
-        <blockquote class="title-quote"> {{page.quote}} </blockquote>
-        <hr class="style-two title-rule" />
+        <h1 class="page-title align-c"> {{page.title}} </h1>
+        <blockquote class="page-quote align-c"> {{page.quote}} </blockquote>
+        <hr class="style-two title-rule align-c" />
 
         <!-- Sections -->
         <ul class="menu">
-            <li><a class="simple-link" href="../about"> About </a></li>
-            <li><a class="simple-link"> | </a></li>
-            <li><a class="simple-link" href="../experience"> Experience </a></li>
-            <li><a class="simple-link"> | </a></li>
-            <li><a class="simple-link" href="../projects"> Projects </a></li>
-            <li><a class="simple-link"> | </a></li>
-            <li><a class="simple-link" href="../interestskills"> Skills and Interests </a></li>
-            <li><a class="simple-link"> | </a></li>
-            <li><a class="simple-link" href="../resume"> Resume </a></li>
-            <li><a class="simple-link"> | </a></li>
-            <li><a class="simple-link" href="../blog"> Blog </a></li>
+            <li class="menu-item"><a href="../about"> About </a></li>
+            <li class="menu-item"><a> | </a></li>
+            <li class="menu-item"><a href="../experience"> Experience </a></li>
+            <li class="menu-item"><a> | </a></li>
+            <li class="menu-item"><a href="../projects"> Projects </a></li>
+            <li class="menu-item"><a> | </a></li>
+            <li class="menu-item"><a href="../interestskills"> Skills and Interests </a></li>
+            <li class="menu-item"><a> | </a></li>
+            <li class="menu-item"><a href="../resume"> Resume </a></li>
+            <li class="menu-item"><a> | </a></li>
+            <li class="menu-item"><a href="../blog"> Blog </a></li>
         </ul>
+        <hr class="style-two title-rule align-c" /> <br />
 
         {{ content }} 
 
+        <br /> <hr class="style-two title-rule align-c" />
         <!-- Social menu -->
         <ul class="social">
-            <a class="icon-link" href="https://github.com/dracarys983"><li><i class="fa fa-github custom-icon" aria-hidden="true"></i></li></a>
-            <!-- li class="flex-item"><i class="fa fa-circle" aria-hidden="true"></i></li -->
-            <a class="icon-link" href="https://in.linkedin.com/in/dracarys983"><li><i class="fa fa-linkedin-square custom-icon" aria-hidden="true"></i></li></a>
-            <!-- li class="flex-item"><i class="fa fa-circle" aria-hidden="true"></i></li -->
-            <a class="icon-link" href="https://www.quora.com/profile/Kalpit-Thakkar-1"><li><i class="fa fa-quora custom-icon" aria-hidden="true"></i></li></a>
-            <!-- li class="flex-item"><i class="fa fa-circle" aria-hidden="true"></i></li -->
-            <a class="icon-link" href="https://plus.google.com/107689294818131557794"><li><i class="fa fa-google-plus custom-icon" aria-hidden="true"></i></li></a>
+            <a class="icon-link" href="https://github.com/dracarys983"><li><i class="fa fa-github icon" aria-hidden="true"></i></li></a>
+            <a class="icon-link" href="https://in.linkedin.com/in/dracarys983"><li><i class="fa fa-linkedin-square icon" aria-hidden="true"></i></li></a>
+            <a class="icon-link" href="https://www.quora.com/profile/Kalpit-Thakkar-1"><li><i class="fa fa-quora icon" aria-hidden="true"></i></li></a>
+            <a class="icon-link" href="https://plus.google.com/107689294818131557794"><li><i class="fa fa-google-plus icon" aria-hidden="true"></i></li></a>
         </ul>
 
         <!-- Copyright and Credits -->
         <ul class="social">
-            <li class="flex-item google-fonts-1" style="font-size: calc(16px + 0.1vw)"> Credits: </li>
-            <li class="flex-item google-fonts-1" style="font-size: calc(16px + 0.1vw)"> Kalpit Thakkar </li>
-            <li class="flex-item google-fonts-1"><a class="simple-link" style="font-size: calc(16px + 0.1vw)" href="http://fontawesome.io/">Font Awesome</a></li>
-            <li class="flex-item google-fonts-1"><a class="simple-link" style="font-size: calc(16px + 0.1vw)" href="https://css-tricks.com/">CSS Tricks</a></li>
-            <li class="flex-item google-fonts-1"><a class="simple-link" style="font-size: calc(16px + 0.1vw)" href="https://disqus.com/">Disqus</a></li>
+            <li class="credits-item"> Credits: </li>
+            <li class="credits-item"> Kalpit Thakkar </li>
+            <li class="credits-item"><a href="http://fontawesome.io/">Font Awesome</a></li>
+            <li class="credits-item"><a href="https://css-tricks.com/">CSS Tricks</a></li>
+            <li class="credits-item"><a href="https://disqus.com/">Disqus</a></li>
         </ul>
-        <p style="font-size: calc(16px + 0.1vw); text-align: right"><i class="fa fa-copyright" aria-hidden="true"></i> 2016. By Kalpit Thakkar </p>
+        <p class="credits-item align-r"><i class="fa fa-copyright" aria-hidden="true"></i> 2016. By Kalpit Thakkar </p>
 
         <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
         <script>window.jQuery || document.write('<script src="../js/vendor/jquery-3.1.1.min.js"><\/script>')</script>

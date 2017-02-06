@@ -38,14 +38,14 @@ html {
  * A better looking default horizontal rule
  */
 
-/*hr {
+hr {
     display: block;
     height: 1px;
     border: 0;
     border-top: 1px solid #ccc;
     margin: 1em 0;
     padding: 0;
-}*/
+}
 
 /*
  * Remove the gap between audio, canvas, iframes,
@@ -95,21 +95,299 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+    font-size: 70%;
+    margin: 2%;
+}
 
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 
+.page-title {
+    font-size: 6em;
+    margin: 1% 25% 0;
+}
 
+.page-quote {
+    font-size: 3.5em;
+    quotes: "\201C""\201D""\2018""\2019";
+}
 
+.page-quote:before {
+    color: #999;
+    content: open-quote;
+    font-size: 1em;
+    line-height: 0.1em;
+    margin-right: 0.2%;
+}
 
+.page-quote:after {
+    color: #999;
+    content: close-quote;
+    font-size: 1em;
+    line-height: 0.1em;
+    margin-left: 0.2%;
+}
 
+.initials {
+    font-size: 4em;
+}
 
+.menu-item {
+    font-size: 3em;
+}
 
+.credits-item {
+    font-size: 1.5em;
+    margin: 0.5em;
+}
 
+.content-title {
+    font-size: 3.5em;
+    margin: 0.1em 5%;
+}
 
+.content-subtitle {
+    font-size: 2em;
+    margin: 0 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
+.content-quote {
+    font-size: 2em;
+    quotes: "\201C""\201D""\2018""\2019";
+}
 
+.content-quote:before {
+    color: #999;
+    content: open-quote;
+    font-size: 1em;
+    line-height: 0.1em;
+    margin-right: 0.2%;
+}
 
+.content-quote:after {
+    color: #999;
+    content: close-quote;
+    font-size: 1em;
+    line-height: 0.1em;
+    margin-left: 0.2%;
+}
 
+.post-title {
+    font-size: 3em;
+    margin: 0.1em 5%;
+}
 
+.post-subtitle {
+    font-size: 1.5em;
+    margin: 0.5em 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.post {
+    margin: 1em 5%;
+}
+
+.project-box {
+    font-size: 1em;
+}
+
+.icon {
+    font-size: 2em;
+}
+
+p {
+    font-size: 2.5em;
+    margin: 0.2em 5%;
+}
+
+.google-fonts-1 {
+    font-family: 'Gentium Book Basic', serif;
+}
+
+.google-fonts-2 {
+    font-family: 'Pacifico', cursive;
+}
+
+.align-c {
+    text-align: center;
+}
+
+.align-r {
+    text-align: right;
+}
+
+.align-l {
+    text-align: left;
+}
+
+.align-j {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.style-one {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.style-two {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.title-rule {
+    margin: 0 20%;
+}
+
+.section-rule {
+    margin: 0 5%;
+}
+
+/* Unordered list classes */
+.menu {
+    margin: 2% 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.social {
+    margin: 3% 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.top {
+    margin: 1% 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.projects {
+    margin: 0.5em 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.transbox {
+    font-size: 2em;
+    margin: 0.5em;
+    padding: 1.2em;
+    border: 0.2em solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 320px;
+    height: 320px;
+}
+
+.blog-posts {
+    font-size: 2em;
+    margin: 0.2em;
+}
+
+/* Links */
+a:link {
+    color: #999;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+a:active {
+    color: #999;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #999;
+    text-decoration: none;
+}
+
+a.icon-link {
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+    margin: 0 10px;
+}
+
+a.icon-link:link {
+    color: #000;
+    text-decoration: none;
+}
+
+a.icon-link:hover {
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+    text-decoration: none;
+}
+
+a.icon-link:active {
+    color: #000;
+    text-decoration: none;
+}
+
+a.icon-link:visited {
+    color: #000;
+    text-decoration: none;
+}
+
+a.button {
+    text-decoration: none;
+    font-size: 1em;
+    margin: 75px 75px 25px;
+    padding: 10px;
+    border: 2px solid black;
+    color: #000;
+    background-color: #fff;
+}
+
+a.button:link {
+    text-decoration: none;
+}
+
+a.button:visited {
+    text-decoration: none;
+}
+
+a.button:hover {
+    border: 2px solid #fff;
+    background-color: #000;
+    color: #fff;
+}
+
+a.button:active {
+    text-decoration: none;
+}
 
 /* ==========================================================================
    Helper classes

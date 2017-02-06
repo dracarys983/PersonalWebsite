@@ -17,7 +17,7 @@ ErrorDocument 504 /504.html
 
 RewriteEngine On
 RewriteBase /
-RewriteCond %{HTTP_HOST} ^www.kalpitthakkar.net [NC]
+RewriteCond %{HTTP_HOST} ^192\.30\.252\.154 [NC]
 RewriteRule ^(.*)$ http://kalpitthakkar.net/$1 [L,R=301]
 
 # Deny access to all
