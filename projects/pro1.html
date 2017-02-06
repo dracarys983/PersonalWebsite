@@ -1,11 +1,10 @@
 ---
 layout: default
-title: Projects
-quote: If you need something, all you need to do is ask
+title: "Streaming String Sort"
+description: "My project on which I wrote a research paper in Summers of 2016 and it got accepted successfully in the Student Research Syposium of HiPC, 2016"
+quote: "If you need something, all you need to do is ask"
 ---
 
-<h2 class="section-title" style="text-align:center"> Streaming String Sort </h2> <!-- Add GitHub link? -->
-<hr class="style-two top-rule" />
 <p> Research paper accepted at HiPC Student Research Symposium. Abstract :
 "This paper explains the design of a hybrid string sort algorithm using CPU+GPU and explores the performance traits of the algorithm. Datasets which don't fit in the GPU memory can be sorted using our algorithm, although the maximum size is bound by the CPU memory and the number of strings in the dataset. Our algorithm performs the sorting by loading strings from left to right, in successive columns of length 'K' and sorts them in each sorting step. Value of 'K' is dynamic as singletons are removed when they are formed. CPU performs the data processing step of loading the next column of 'K' bytes from each string to be sorted and GPU performs the sorting step, in an overlapped manner. A context lag between CPU and GPU is observed as they perform overlapped executions and next iteration depends on the previous. Results are shown on different datasets having sizes ranging from 2 MB to 6.4 GB and different after-sort tie-lengths. We compare our runtimes with the best CPU string sorting implementations available today and explore the possibilities for improvement in our algorithm."
 </p>
