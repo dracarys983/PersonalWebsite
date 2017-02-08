@@ -107,12 +107,12 @@ ul {
 }
 
 .page-title {
-    font-size: 6em;
+    font-size: 5em;
     margin: 1% 25% 0;
 }
 
 .page-quote {
-    font-size: 3.5em;
+    font-size: 3em;
     quotes: "\201C""\201D""\2018""\2019";
 }
 
@@ -137,7 +137,7 @@ ul {
 }
 
 .menu-item {
-    font-size: 3em;
+    font-size: 2.8em;
 }
 
 .credits-item {
@@ -146,13 +146,11 @@ ul {
 }
 
 .content-title {
-    font-size: 3.5em;
-    margin: 0.1em 5%;
+    font-size: 2.5em;
 }
 
 .content-subtitle {
-    font-size: 2em;
-    margin: 0 5%;
+    font-size: 1.8em;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -180,24 +178,21 @@ ul {
 }
 
 .post-title {
-    font-size: 3em;
-    margin: 0.1em 5%;
+    font-size: 2.3em;
 }
 
 .post-subtitle {
     font-size: 1.5em;
-    margin: 0.5em 5%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .post-content {
-    font-size: 1.8em;
+    font-size: 1.5em;
 }
 
 .post {
-    margin: 1em 5%;
 }
 
 .project-box {
@@ -209,8 +204,7 @@ ul {
 }
 
 p {
-    font-size: 2.5em;
-    margin: 0.2em 5%;
+    font-size: 2em;
 }
 
 .google-fonts-1 {
@@ -219,6 +213,10 @@ p {
 
 .google-fonts-2 {
     font-family: 'Pacifico', cursive;
+}
+
+.google-fonts-3 {
+    font-family: 'Lato', sans-serif;
 }
 
 .align-c {
@@ -255,7 +253,6 @@ p {
 }
 
 .section-rule {
-    margin: 0 5%;
 }
 
 /* Unordered list classes */
@@ -263,7 +260,7 @@ p {
     margin: 2% 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .social {
@@ -288,7 +285,7 @@ p {
 }
 
 .transbox {
-    font-size: 2em;
+    font-size: 1.8em;
     margin: 0.5em;
     padding: 1.2em;
     border: 0.2em solid black;
