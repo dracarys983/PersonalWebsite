@@ -192,8 +192,11 @@ ul {
     justify-content: center;
 }
 
-.post {
+.post-content {
     font-size: 1.8em;
+}
+
+.post {
     margin: 1em 5%;
 }
 
