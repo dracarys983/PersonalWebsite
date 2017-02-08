@@ -6,7 +6,6 @@ date: 2017-02-06
 updated: 2017-02-06
 ---
 
-<br /> <br />
 <h2 class="post-title"> Large Scale Video Classification with Convolutional Neural Networks </h2>
 <ul class="content-subtitle">
     <li> Conference on Computer Vision and Pattern Recognition </li>
