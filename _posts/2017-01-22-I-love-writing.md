@@ -2,8 +2,8 @@
 layout: post
 title: "Oh, I love writing and hence .."
 description: "This page belongs to Kalpit Thakkar's personal website's blog. This blog post talks about Kalpit Thakkar's love for writing and expressing his thoughts. Kalpit Thakkar has always loved to present ideas concisely -- to keep them short and sweet."
-date: 2016-01-22
-updated: 2016-01-24
+date: 2017-01-22
+updated: 2017-02-08
 ---
 
 <p> Hello, folks! </p>
