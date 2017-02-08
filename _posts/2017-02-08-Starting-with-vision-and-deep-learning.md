@@ -2,8 +2,8 @@
 layout: post
 title: "Exploring Recent Video Action Recognition Research"
 description: "Video Action Recognition is a great field for research in Deep Learning and methods developed for Video Action Recognition have used Convolutional Neural Networks, Recurrent Neural Networks, LSTMs, etc. They use information from spatial stream (single frame) as well as temporal stream (across multiple frames) to provide good classification accuracies."
-date: 2017-02-06
-updated: 2017-02-06
+date: 2017-02-08
+updated: 2017-02-08
 ---
 
 <h2 class="post-title"> Large Scale Video Classification with Convolutional Neural Networks </h2>
